@@ -10,6 +10,9 @@ function eventBubbling() {
             makeBubble();
             getNewHit();
         }
+          else{
+            makeBubble();
+        }
 
     });
 }
