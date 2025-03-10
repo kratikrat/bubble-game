@@ -10,9 +10,7 @@ function eventBubbling() {
             makeBubble();
             getNewHit();
         }
-          else{
-            makeBubble();
-        }
+       
 
     });
 }
@@ -98,7 +96,7 @@ document.querySelector("#finalscore").innerHTML=score;
 
 function footer(){
     document.getElementById("year").textContent = new Date().getFullYear();}
-    footer()
+    footer();
 makeBubble();
 runTime();
 getNewHit();
